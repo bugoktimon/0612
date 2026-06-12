@@ -87,5 +87,25 @@ sample = (1, 2, 3, 2, 4, 2)
 print(sample.count(2)) # 2가 3개 들어있음
 print(sample.index(3)) # index는 순번
 
-# 깃 테스트를 위한 주석
+fruits = ["사과", "바나나", "수박"] # 리스트 
+
+for fruit in fruits:
+    print(fruit)
+
+for i in range(5):
+    print(f"{i}번째 반복 중입니다.") # 매우 중요한 함수
+
+##
+total = 0
+
+for num in range(1, 11):    # 1부터 10까지 (11 직전까지)
+    total = total + num     # 기존 total에 새로운 num을 더함
+
+print(f"1부터 10까지 더한 합은: {total}")
+
+
+# num이 등비수열로 출력되길 바래 1, 3, 5,... 아주 중요!!
+for num in range(1, 11):  
+    if num % 2 != 0:   # 나누었을때 나머지 구하는 연산자 %
+        print(num)
 
