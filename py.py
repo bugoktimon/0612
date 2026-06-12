@@ -87,4 +87,5 @@ sample = (1, 2, 3, 2, 4, 2)
 print(sample.count(2)) # 2가 3개 들어있음
 print(sample.index(3)) # index는 순번
 
+# 깃 테스트를 위한 주석
 
